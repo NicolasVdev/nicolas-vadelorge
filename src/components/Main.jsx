@@ -7,7 +7,7 @@ import selfie from "../assets/img/nyko.jpg";
 export const Main = () => {
   return (
     <div id="main">
-      <img className="w-full h-screen object-none" src={logo} alt="/" />
+      <img className="w-full h-screen" src={logo} alt="/" />
       <div className="w-full h-screen absolute top-0 left-0">
         <div className="max-w-[1300px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
           <div className="flex justify-between w-full">
@@ -44,19 +44,20 @@ export const Main = () => {
             </div>
           </div>
           <div className="flex justify-between gap-10 pt-[50px] max-w-[300px] w-full text-[#C2E6FF] mx-auto">
-            <a href="mailto:nicolasvadelorge.dev@gmail.com" target="blank">
+            <a href="mailto:nicolasvadelorge.dev@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#0992FF]">
               <FaEnvelope size={30} />
             </a>
-            <a href="https://twitter.com/Nykodevv" target="blank">
+            <a href="https://twitter.com/Nykodevv" target="_blank" rel="noopener noreferrer"className="hover:text-[#0992FF]">
               <FaTwitter size={30} />
             </a>
             <a
               href="https://www.linkedin.com/in/nicolas-vadelorge"
-              target="blank"
+              target="_blank" rel="noopener noreferrer"
+              className="hover:text-[#0992FF]"
             >
               <FaLinkedinIn size={30} />
             </a>
-            <a href="https://github.com/NicolasVdev" target="blank">
+            <a href="https://github.com/NicolasVdev" target="_blank" rel="noopener noreferrer"className="hover:text-[#0992FF]">
               <FaGithub size={30} />
             </a>
           </div>

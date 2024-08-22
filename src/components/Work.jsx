@@ -89,8 +89,7 @@ export const Work = () => {
           ))}
         </div>
       </div>
-      <p className='pt-14 text-xl font-bold text-center text-white'>Pour voir l'ensemble de mon parcours et de mes expériences mon CV est disponible en cliquant<a href={cv} className='hover:underline ml-1' target="_blank" rel="noopener noreferrer">ici</a></p>
-      
+      <p className='pt-14 text-xl font-bold text-center text-white'>Pour voir l'ensemble de mon parcours et de mes expériences mon CV est disponible en cliquant<a href={cv} className='hover:underline ml-1 hover:text-[#0992FF]' target="_blank" rel="noopener noreferrer">ici</a></p>
     </div>
   )
 }
