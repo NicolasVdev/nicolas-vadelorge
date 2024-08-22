@@ -64,7 +64,7 @@ export const Main = () => {
           <p className="text-3xl font-bold bg-color-main-title noto-sans-jp pt-32">
             Passionné de technologie et en constante évolution, j'ai réussi ma reconversion professionnelle avec plus d'un an d'expérience en développement web. 
           </p>
-          <p className="text-3xl font-bold bg-color-main-title noto-sans-jp">Je suis actuellement en recherche active pour une nouvelle mission, je suis motivé par l'apprentissage continu et le perfectionnement de mes compétences.</p>
+          <p className="text-3xl font-bold bg-color-main-title noto-sans-jp">Actuellement en recherche active pour une nouvelle mission, je suis motivé par l'apprentissage continu et le perfectionnement de mes compétences.</p>
         </div>
       </div>
     </div>
