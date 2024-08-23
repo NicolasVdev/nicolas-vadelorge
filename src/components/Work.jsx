@@ -69,12 +69,12 @@ const data = [
 ];
 export const Work = () => {
   return (
-    <div id='work' className='w-full m-auto md:pl-20 p-4 py-16 bg-color'>
-      <h1 className='pb-10 text-4xl font-bold text-center text-white'>
+    <div id='experience' className='w-full m-auto lg:pl-20 p-4 py-16 bg-color'>
+      <h1 className='pb-10 text-3xl md:text-4xl font-bold text-center text-white'>
         Expérience
       </h1>
       <div className='flex items-center justify-center'>
-        <div className='grid grid-cols-1 max-w-[1040px]'>
+        <div className='grid grid-cols-1 max-w-[1040px] w-full px-4 md:px-0'>
           {data.map((item, idx) => (
             <WorkItem 
             key={idx} 
@@ -89,7 +89,7 @@ export const Work = () => {
           ))}
         </div>
       </div>
-      <p className='pt-14 text-xl font-bold text-center text-white'>Pour voir l'ensemble de mon parcours et de mes expériences mon CV est disponible en cliquant<a href={cv} className='hover:underline ml-1 hover:text-[#0992FF]' target="_blank" rel="noopener noreferrer">ici</a></p>
+      <p className='pt-14 text-lg md:text-xl font-bold text-center text-white'>Pour voir l'ensemble de mon parcours et de mes expériences mon CV est disponible en cliquant<a href={cv} className='hover:underline ml-1 hover:text-[#0992FF]' target="_blank" rel="noopener noreferrer">ici</a></p>
     </div>
   )
 }
